@@ -17,16 +17,22 @@
       <profile default="true" name="Default" enabled="false">
         <processorPath useClasspath="true" />
       </profile>
-      <profile default="false" name="Annotation profile for doctor-blood" enabled="true">
+      <profile default="false" name="Annotation profile for projeto-escola-ministerios" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="doctor-blood" />
+        <module name="projeto-escola-ministerios" />
+      </profile>
+      <profile default="false" name="Annotation profile for projeto-escola-ministerios" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="projeto-escola-ministerios" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="doctor-blood" target="1.7" />
       <module name="projeto-escola-ministerios" target="1.7" />
     </bytecodeTargetLevel>
   </component>

@@ -1,4 +1,4 @@
-package com.escola.ministerios.controller;
+/*package com.escola.ministerios.controller;
 
 import org.fest.assertions.Assertions;
 import com.escola.ministerios.config.AppConfig;
@@ -27,4 +27,4 @@ public class HomeControllerIntegrationTests {
         Assertions.assertThat(appUser).isNotNull();
         Assertions.assertThat(appUser.getUsername()).isNotNull().isEqualTo("Abderrazak BOUADMA");
     }
-}
+}*/

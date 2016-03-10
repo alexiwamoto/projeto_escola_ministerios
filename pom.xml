@@ -174,10 +174,10 @@
             </executions>
             <configuration>
               <rules>
-                <requireMavenVersion>
+<!--                <requireMavenVersion>
                   <message>You are running an older version of Maven. requires at least Maven 3.1</message>
                   <version>[3.1.0,)</version>
-                </requireMavenVersion>
+                </requireMavenVersion>-->
                 <requireJavaVersion>
                   <message>You are running an older version of Java. requires at least JDK ${java.version}</message>
                   <version>[${java.version}.0,)</version>
